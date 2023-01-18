@@ -1,0 +1,48 @@
+//footer in html responsive?/
+.footercol1 {
+  display: flex;
+}
+
+p {
+ overflow-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+  .footercol1 {
+    flex-direction: column;
+  }
+}
+
+<div class="row">
+  <div class="footercol1" style="line-height:10px;display: flex;">
+    <div id="image" style="float: left; margin-left: 25px;">
+      <img src="https://picsum.photos/200/200" width="73" />
+    </div>
+    <div class="col-sm-6" style="word-wrap:normal;max-width:300px;width:50%;float: right; margin-left: 10px;">
+      <p style="font-size: 14px;">Text1 blablablablablablablabla
+        <br>
+        <br> blablablablablablablablablablablablablablabla
+        <br>
+        <br> blablablablablablalblalbblalblbalblbalblalblbabla
+        <br>
+        <br> blablablablabalbalblablalblalbbllabllbalblabla.
+      </p>
+    </div>
+    <div class="col-sm-6" style="max-width:300px;float: right; width:50%;margin-left: 50px;font-size: 14px;">
+      <strong style="color: #489523;">Text 2: </strong> <p>blablablabalbalbalblbalblalblbalblablblalbalblblalblblalblabla</p>
+      <br>
+      <br>
+      <p>blablablablablablabalbalbalbalblablbablalblablablablabla</p>
+      <br>
+      <img class="alignleft" src="https://picsum.photos/70/30" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+<!--DELIMITER-->Source: https://stackoverflow.com/questions/71827101
+
+
+
+
